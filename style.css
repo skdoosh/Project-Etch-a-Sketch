@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+}
+
+.row {
+    display: flex;
+    flex: 1; 
+}
+
+.cell {
+    flex: 1;
+    aspect-ratio: 1;
+    border: solid 1px;
+}
+
+.hover{
+    background-color: blue;
+}
